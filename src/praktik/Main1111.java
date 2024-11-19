@@ -29,6 +29,7 @@ public class Main1111
 //        String name = input.nextLine();
 //        System.out.printf("Результат: %.2f %n",(float) (num1 + num2) / (num3 + num4));
 //        input.close();
-        System.out.println("Проверка изменения");
+//        System.out.println("Проверка изменения");
+        System.out.println("Клонированный репозиторий");
     }
 }
