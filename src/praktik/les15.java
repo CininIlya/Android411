@@ -6,6 +6,7 @@ import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.Scanner;
+import java.io.*;
 import java.util.concurrent.LinkedBlockingDeque;
 
 public class les15 {
@@ -201,20 +202,6 @@ public class les15 {
 //                System.out.println((char) (j ) + " = " + result2[j]);
 //
 //            }
-        String strok = "Hello, World";
-        System.out.println(strok);
-        int big = 0;
-        int small = 0;
-        for (int a = 0; a < strok.length(); a++) {
-            char ch = strok.charAt(a);
-            if (ch >= 64 && ch <= 91) {
-                big += 1;
-            } else if (ch >= 96 && ch <= 123) {
-                small += 1;
-            }
-        }
-        System.out.println("Количество строчных букв - " + small + ", " + "Количество прописных букв - " + big);
+
     }
 }
-
-
